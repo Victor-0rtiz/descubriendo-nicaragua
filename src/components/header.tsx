@@ -5,7 +5,7 @@ export default function Header() {
         <header className=" bg-[#145068]">
             <nav className="mx-auto px-6 md:px-16 lg:px-24 xl:px-32 flex items-center justify-between py-4 md:py-5 relative">
                 <a href="#">
-                    <h1 className='text-white font-extrabold'>Nicaragua</h1>
+                    <img src="logo.png" alt="logo" className='w-40'/>
                 </a>
 
 
