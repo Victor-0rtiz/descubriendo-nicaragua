@@ -1,67 +1,49 @@
-import React from 'react'
+import React from 'react';
 
 export default function Footer() {
-    return (
-        <footer className="relative bg-blueGray-200 pt-8 pb-6">
-            <div className="container mx-auto px-4">
-                <div className="flex flex-wrap text-left lg:text-left">
-                    <div className="w-full lg:w-6/12 px-4">
-                        <h4 className="text-3xl fonat-semibold text-blueGray-700">Let's keep in touch!</h4>
-                        <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-                            Find us on any of these platforms, we respond 1-2 business days.
-                        </h5>
-                        <div className="mt-6 lg:mb-0 mb-6">
+  return (
+    <footer className="bg-[#145068] text-white pt-10 pb-6">
+      <div className="container mx-auto px-4">
+        {/* Sección principal */}
+        <div className="flex flex-wrap justify-between text-left">
+          {/* Información del proyecto */}
+          <div className="w-full md:w-6/12 mb-8 md:mb-0">
+            <h4 className="text-2xl font-bold mb-2">Descubriendo Nicaragua</h4>
+            <p className="text-sm leading-relaxed max-w-md">
+              Un espacio para explorar la riqueza cultural, natural y gastronómica de nuestro país. Este proyecto busca inspirar, educar y conectar con nuestras raíces a través del conocimiento y la experiencia.
+            </p>
+          </div>
 
-                        </div>
-                    </div>
-                    <div className="w-full lg:w-6/12 px-4">
-                        <div className="flex flex-wrap items-top mb-6">
-                            <div className="w-full lg:w-4/12 px-4 ml-auto">
-                                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Useful Links</span>
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/presentation?ref=njs-profile">About Us</a>
-                                    </li>
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://blog.creative-tim.com?ref=njs-profile">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.github.com/creativetimofficial?ref=njs-profile">Github</a>
-                                    </li>
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://www.creative-tim.com/bootstrap-themes/free?ref=njs-profile">Free Products</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div className="w-full lg:w-4/12 px-4">
-                                <span className="block uppercase text-blueGray-500 text-sm font-semibold mb-2">Other Resources</span>
-                                <ul className="list-unstyled">
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://github.com/creativetimofficial/notus-js/blob/main/LICENSE.md?ref=njs-profile">MIT License</a>
-                                    </li>
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/terms?ref=njs-profile">Terms &amp; Conditions</a>
-                                    </li>
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/privacy?ref=njs-profile">Privacy Policy</a>
-                                    </li>
-                                    <li>
-                                        <a className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="https://creative-tim.com/contact-us?ref=njs-profile">Contact Us</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr className="my-6 border-blueGray-300" />
-                <div className="flex flex-wrap items-center md:justify-between justify-center">
-                    <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-                        <div className="text-sm text-blueGray-500 font-semibold py-1">
-                            Copyright © <span id="get-current-year">2025</span>
-                        </div>
-                    </div>
-                </div>
+          {/* Enlaces útiles */}
+          <div className="w-full md:w-5/12 flex flex-wrap gap-8">
+            <div>
+              <h5 className="uppercase text-sm font-semibold mb-2 text-orange-300">Secciones</h5>
+              <ul className="space-y-2 text-sm">
+                <li><a href="#turismo" className="hover:text-orange-300">Turismo</a></li>
+                <li><a href="#gastronomia" className="hover:text-orange-300">Gastronomía</a></li>
+                <li><a href="#cultura" className="hover:text-orange-300">Cultura y Arte</a></li>
+                <li><a href="#tradiciones" className="hover:text-orange-300">Tradiciones</a></li>
+              </ul>
             </div>
-        </footer>
-    )
+            <div>
+              <h5 className="uppercase text-sm font-semibold mb-2 text-orange-300">Contacto</h5>
+              <ul className="space-y-2 text-sm">
+                <li><a href="mailto:info@nicaragua.com" className="hover:text-orange-300">info@nicaragua.com</a></li>
+                <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-orange-300">Instagram</a></li>
+                <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-orange-300">Facebook</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Línea divisoria */}
+        <hr className="my-6 border-gray-500 opacity-30" />
+
+        {/* Copyright */}
+        <div className="text-center text-sm text-gray-300">
+          © {new Date().getFullYear()} Descubriendo Nicaragua. Todos los derechos reservados.
+        </div>
+      </div>
+    </footer>
+  );
 }
