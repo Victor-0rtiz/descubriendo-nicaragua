@@ -42,7 +42,7 @@ export default function Turismo() {
 
       {/* Texto introductorio a Turismo */}
       <div className="md:w-1/2 pr-0 md:pr-12">
-        <span className="text-sm uppercase tracking-wide text-blue-500 mb-2 block">
+        <span className="text-sm uppercase tracking-wide text-[#145068] mb-2 block">
           Explora Nicaragua
         </span>
         <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
