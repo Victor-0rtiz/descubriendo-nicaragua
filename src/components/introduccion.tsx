@@ -3,7 +3,7 @@ import React from 'react'
 export default function Introduccion() {
     return (
 
-        <div className="relative flex min-h-screen flex-col justify-center overflow-hidden bg-gray-50 py-6 sm:py-12">
+        <div className="relative flex min-h-screen flex-col justify-center overflow-hidden  py-6 sm:py-12">
             <div className="w-full items-center mx-auto max-w-screen-lg">
                 <div className="group grid w-full grid-cols-2 items-center">
                     <div>
