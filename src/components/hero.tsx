@@ -5,7 +5,7 @@ export default function hero() {
     return (
         <>
 
-            <section className="mx-auto px-6 sm:px-8 lg:px-12  pb-16" style={{ backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url(Descubriendo-Nicaragua.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <section className="mx-auto px-6 sm:px-8 lg:px-12  pb-16 " style={{ backgroundImage: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),url(Descubriendo-Nicaragua.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <section className="pt-28 flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 max-w-6xl mx-auto">
                     <div className="text-center md:text-center max-w-3xl">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl text-white">
