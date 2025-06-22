@@ -1,5 +1,6 @@
 import { Mountain, Music, UtensilsCrossed } from 'lucide-react'
 
+
 export default function Hero() {
     return (
         <>
