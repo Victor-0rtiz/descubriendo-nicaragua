@@ -28,8 +28,8 @@ export default function Header() {
   const closeMenu = () => setIsMenuOpen(false);
 
   const menuItems = [
-    { label: "Turismo", href: "#" },
-    { label: "Gastronomía", href: "#" },
+    { label: "Turismo", href: "#turismo" },
+    { label: "Gastronomía", href: "#gastronomia" },
     { label: "Cultura", href: "#" },
     { label: "Tradiciones", href: "#" }
   ];

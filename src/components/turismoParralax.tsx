@@ -1,6 +1,4 @@
-// src/components/NicaraguaTourism.tsx
-"use client";
-import React from "react";
+
 import { StickyScroll } from "./ui/ScrollReveal";
 
 const tourismContent = [
@@ -69,12 +67,12 @@ const tourismContent = [
 export default function ParallaxTurismo() {
   return (
     <div className="w-full py-12 ">
-      <h2 className="text-3xl font-bold text-center mb-8 text-slate-800">
+      <h2 className="text-3xl font-bold text-center mb-8 text-[#145068] ">
         Tesoros Turísticos de Nicaragua
       </h2>
-      <StickyScroll 
-        content={tourismContent} 
-        
+      <StickyScroll
+        content={tourismContent}
+
       />
     </div>
   );

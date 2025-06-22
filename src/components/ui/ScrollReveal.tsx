@@ -56,8 +56,7 @@ export const StickyScroll = ({
 
     // Asegurar que tenemos suficientes imágenes
     const safeActiveIndex = Math.min(activeCard, backgroundImages.length - 1);
-    const backgroundImage = `linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), ${backgroundImages[safeActiveIndex]
-        }`;
+    const backgroundImage = `linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.6)), ${backgroundImages[safeActiveIndex]}`;
 
     return (
         <motion.div
@@ -70,7 +69,7 @@ export const StickyScroll = ({
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
             }}
-            className="relative flex h-[35rem] justify-start space-x-10 overflow-y-auto rounded-md p-10"
+            className="relative flex h-[35rem] justify-start space-x-10 overflow-y-auto  p-10"
         >
             {/* Texto scrollable */}
             <div className="relative flex items-start ml-5 px-4">

@@ -1,22 +1,29 @@
 ---
-import Hero from "../components/hero";
-import Header from "../components/header";
+import Hero from "../components/Hero";
+import Header from "../components/Header";
 import Layout from "../layouts/Layout.astro";
-import Introduccion from "../components/introduccion";
-import Footer from "../components/footer";
-import Turismo from "../components/turismo";
-import ParallaxTurismo from "../components/turismoParralax"; 
+import Introduccion from "../components/Introduccion";
+import Footer from "../components/Footer";
+import Turismo from "../components/Turismo";
+import ParallaxTurismo from "../components/TurismoParralax";
+import Gastronomia from "../components/Gastronomia";
+import GastronomiaPlatos  from "../components/GastronomiaPlatos";
+import CulturaNicaragua from "../components/Cultura";
+import CulturaScroll from "../components/CulturaScroll";
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-  <Header client:only/>
+  <Header client:only />
   <Hero />
   <Introduccion />
   <Turismo />
   <ParallaxTurismo client:only />
-  
+  <Gastronomia />
+  <GastronomiaPlatos client:only />
+  <CulturaNicaragua />
+  <CulturaScroll client:only />
   <Footer />
 </Layout>

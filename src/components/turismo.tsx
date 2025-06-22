@@ -45,7 +45,7 @@ export default function Turismo() {
         <span className="text-sm uppercase tracking-wide text-[#145068] mb-2 block">
           Explora Nicaragua
         </span>
-        <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+        <h2 className="text-3xl md:text-4xl font-extrabold text-[#145068]  mb-4">
           Turismo que conecta con la tierra y la historia
         </h2>
         <p className="text-sm md:text-base text-gray-600 mb-4">

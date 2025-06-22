@@ -1,7 +1,7 @@
 import { Mountain, Music, UtensilsCrossed } from 'lucide-react'
 import React from 'react'
 
-export default function hero() {
+export default function Hero() {
     return (
         <>
 
